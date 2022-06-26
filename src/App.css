@@ -138,6 +138,10 @@ p {
     padding: 32px;
   }
 
+  h1{
+    font-size: 31px;
+  }
+
   .btn {
     width: 236px;
   }
