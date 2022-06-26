@@ -36,6 +36,8 @@ body {
   justify-content: space-around;
   height: calc(611px - 240px);
   padding: 24px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .brand {
@@ -110,4 +112,33 @@ p {
 
 .cart-icon {
   margin-right: 8px;
+}
+
+@media (min-width: 375px) {
+  .card {
+    display: flex;
+    width: 600px;
+    height: 450px;
+  }
+
+  .hero,
+  .product-details {
+    width: 300px;
+    height: 450px;
+  }
+
+  .hero {
+    background-image: url("./images/image-product-desktop.jpg");
+    background-repeat: no-repeat;
+    border-radius: 10px 0 0 10px;
+  }
+
+  .product-details {
+    border-radius: 0 10px 10px 0;
+    padding: 32px;
+  }
+
+  .btn {
+    width: 236px;
+  }
 }
